@@ -1,0 +1,39 @@
+.box{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    transform: translateY(80px)  translateX(60px);
+    animation-name: cube;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cube {
+    10%{
+        transform: translateY(80px)  translateX(330px);
+    }
+    20%{
+        transform: translateY(370px)  translateX(330px);
+    }
+    30%{
+        transform: translateY(370px)  translateX(1000px);
+    }
+    40%{
+        transform: translateY(530px)  translateX(1000px);
+    }
+    50%{
+        transform: translateY(530px)  translateX(620px);
+    }
+    60%{
+        transform: translateY(480px)  translateX(620px);
+    }
+    70%{
+        transform: translateY(480px)  translateX(330px);
+    }
+    80%{
+        transform: translateY(370px)  translateX(160px);
+    }
+    90%{
+        transform: translateY(370px)  translateX(60px);
+    }
+}
